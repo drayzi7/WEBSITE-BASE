@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+
+}
+html {
+    background: url(img/bg2.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+    margin: 0;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: 10px 2px 10px rgb(49, 49, 49);
+
+}
+nav a {
+    margin-right: 5px;
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    color: darkgray;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.baixo { 
+    text-align: center;
+    height: 24vh;
+    padding: 10px;
+    border-radius: 2px;
+    border: 2px solid chocolate;
+    color: goldenrod;
+}
+
+.meio {
+    height: 100vh;
+    padding-left: 40px;
+    color: chocolate;
+    padding-top: 60px;
+}
+
+.meio h1 {
+    color: gold;
+}
+
